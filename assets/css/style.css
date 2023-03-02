@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@600&family=Spline+Sans:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: "Spline Sans", sans-serif;
+    color: #777;
+    line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-weight: 600;
+color: #222;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600
+}
+
+a:hover {
+    color: #F58d17;
+}
+
+
+img{
+    min-width: 100%;
+}
+
+
+/* button */
+.btn{
+    border-radius: 0;
+    padding: 14px 38px;
+
+}
+
+.btn-brand{
+    color: #fff;
+    font-weight: 500;
+    border-color: #F58d17;
+background-color: #F58d17;
+}
+
+.btn-brand:hover{
+    border-color: #d37810;
+    background-color: #d37810;
+    color: white;
+}
+
+
+/* Slider */
+
+
+
+.slide-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cover1.jpg);
+}
+
+
+
+.slide-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cover2.jpg);
+}
+
+.bg-cover{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 40px;
+  height: 70px;
+  margin: auto;
+}
+
+#heroSlider h6::after,
+#heroSlider h6::before {
+    content: " ";
+    width: 40px;
+    height: 4px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+
+ 
